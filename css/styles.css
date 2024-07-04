@@ -7,7 +7,7 @@ body {
 .container {
   max-width: 1158px;
   padding: 0 15px;
-  margin: o auto;
+  margin: 0 auto;
 }
 
 ul,
@@ -16,6 +16,7 @@ ol {
   margin: 0;
   padding: 0;
 }
+
 h1,
 h2,
 h3,
@@ -68,7 +69,7 @@ button {
   margin-right: 76px;
 }
 
-.header-logo-web-clr {
+.header-logo-clr {
   color: #2e2f42;
 }
 
@@ -127,6 +128,10 @@ button {
 }
 
 .hero-title {
+  padding-top: 188px;
+  padding-bottom: 48px;
+  padding-left: auto;
+  padding-right: auto;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
@@ -134,6 +139,8 @@ button {
   color: #fff;
 }
 .hero-primary-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
@@ -147,6 +154,8 @@ button {
 }
 /*----------- advantages ----------- */
 .advantages-list {
+  display: flex;
+  gap: 24px;
 }
 .advantages-item {
 }
@@ -171,6 +180,10 @@ button {
 .our-team-item {
   background-color: #ffffff;
 }
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
 .our-team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -187,6 +200,11 @@ button {
 
 /*-----------our-portfolio----------- */
 
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
 .our-portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -201,6 +219,10 @@ button {
   color: #434455;
 }
 
+.container-portfolio {
+  width: 360px;
+  height: 420px;
+}
 /*----------- FOOTER----------- */
 footer {
   background-color: #2e2f42;
@@ -215,7 +237,7 @@ footer {
   color: #4d5ae5;
 }
 
-.footer-logo-web-color-blue {
+.footer-logo-clr {
   color: #f4f4fd;
 }
 
