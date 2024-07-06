@@ -50,6 +50,7 @@ button {
   overflow: hidden;
 }
 .section-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
@@ -184,11 +185,9 @@ button {
   gap: 24px;
 }
 .advantages-item {
-}
-
-.container-advantages {
   width: calc((100% - 3 * 24px) / 4);
 }
+
 .advantages-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -210,23 +209,32 @@ button {
   padding-bottom: 120px;
 }
 
-.our-team-item {
-  background-color: #ffffff;
-}
 .our-team-list {
-  width: calc((100% - 3 * 24px) / 4);
   display: flex;
   gap: 24px;
 }
+
+.our-team-item {
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
+  background-color: #ffffff;
+}
+
+.our-team-item-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .our-team-subtitle {
+  text-align: center;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
-  margin-bottom: 72px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .our-team-item-text {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -234,6 +242,10 @@ button {
 }
 
 /*-----------our-portfolio----------- */
+.our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .our-portfolio-list {
   display: flex;
