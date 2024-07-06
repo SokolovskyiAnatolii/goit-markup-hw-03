@@ -46,9 +46,13 @@ button {
   margin: -1px;
   border: 0;
   padding: 0;
+
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .section-title {
   margin-bottom: 72px;
   font-size: 36px;
@@ -253,6 +257,7 @@ button {
   gap: 48px 24px;
 }
 .our-portfolio-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
